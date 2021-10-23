@@ -4,26 +4,29 @@ import MainNavigation from "./components/layout/MainNavigation";
 import ColorsPage from "./pages/ColorsPage";
 import MeetingsPage from "./pages/MeetingsPage";
 import TodoPage from "./pages/TodoPage";
+import HomePage from "./pages/HomePage";
 
 function App() {
   return (
-    <div>
+    <body>
       <MainNavigation />
-      <Switch>
-        <Route path="/" exact>
-          <TodoPage />
-        </Route>
-        <Route path="/todo">
-          <TodoPage />
-        </Route>
-        <Route path="/colors">
-          <ColorsPage />
-        </Route>
-        <Route path="/meetings">
-          <MeetingsPage />
-        </Route>
-      </Switch>
-    </div>
+      <div className="mt-11">
+        <Switch>
+          <Route path="/" exact>
+            <HomePage />
+          </Route>
+          <Route path="/shop">
+            <TodoPage />
+          </Route>
+          <Route path="/mac">
+            <ColorsPage />
+          </Route>
+          <Route path="/ipad">
+            <MeetingsPage />
+          </Route>
+        </Switch>
+      </div>
+    </body>
   );
 }
 
