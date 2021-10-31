@@ -16,27 +16,27 @@ function MainNavigation(props) {
     },
     {
       text: "iPhone",
-      url: "/todo",
+      url: "/iphone",
     },
     {
       text: "Watch",
-      url: "/todo",
+      url: "/watch",
     },
     {
       text: "AirPods",
-      url: "/todo",
+      url: "/airpods",
     },
     {
       text: "TV y Casa",
-      url: "/todo",
+      url: "/hometv",
     },
     {
       text: "Solo con Apple",
-      url: "/todo",
+      url: "/onlyapple",
     },
     {
       text: "Soporte",
-      url: "/todo",
+      url: "/support",
     },
   ];
 
