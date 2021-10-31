@@ -1,0 +1,43 @@
+name: Deploy react app
+
+on:
+  push:
+    branches:
+      - develop
+  pull_request:
+    branches:
+      - develop
+
+jobs:
+  deploy:
+    name: deploy app
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+          node-version: ["12.1"]
+          
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      
+      - name: Install Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{matrix.node-version}}
+      
+      - name: Install packages (with yarn)
+        run: yarn install
+      
+      - name: Build project
+        run: yarn build
+      
+      - name: Registry github user
+          run: |
+            git config --global user.email <email>
+            git config --global user.name <name>
+
+      - name: Deploy the app
+        run: yarn deploy
+        env: 
+          GH_TOKEN: ${{ secrets.GH_TOKEN}}
+
