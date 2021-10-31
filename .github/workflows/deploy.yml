@@ -1,42 +1,46 @@
-name: Deploy react app
+name: Github Pages Deploy
 
 on:
   push:
     branches:
-      - develop
-  pull_request:
-    branches:
-      - develop
+      - "master"
 
 jobs:
-  deploy:
-    name: deploy app
+  build:
     runs-on: ubuntu-latest
+
     strategy:
       matrix:
-          node-version: ["12.1"]
-          
+        node-version: [15.x]
+    
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-      
-      - name: Install Node.js
-        uses: actions/setup-node@v1
-        with:
-          node-version: ${{matrix.node-version}}
-      
-      - name: Install packages (with yarn)
-        run: yarn install
-      
-      - name: Build project
-        run: yarn build
-      
-      - name: Registry github user
-          run: |
-            git config --global user.email compresdavid@gmail.com 
-            git config --global user.name daliife
+      - name: Checkout
+        uses: actions/checkout@v1
 
-      - name: Deploy the app
-        run: yarn deploy
-        env: 
-          GH_TOKEN: ${{ secrets.GH_TOKEN}}
+      - name: Install and build
+        run: npm install && npm run build
+      
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@4.1.1
+        with:
+          branch: gh-pages # The branch the action should deploy to.
+          folder: build # The folder the action should deploy.        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
