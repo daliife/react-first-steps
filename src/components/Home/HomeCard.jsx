@@ -7,7 +7,7 @@ function Homecard(props) {
         <h2 className="text-5xl font-semibold">iPhone 13 Pro</h2>
         <h3 className="text-2xl font-normal mt-1">Prodigioso Pro</h3>
         <p
-          class="mt-2 text-gray-400 font-normal text-lg"
+          className="mt-2 text-gray-400 font-normal text-lg"
           aria-label="Disponible el veintiséis de octubre"
         >
           Disponible el 26/10
@@ -18,7 +18,7 @@ function Homecard(props) {
             Más información
           </a>
         </div>
-        <div class="">
+        <div className="">
           <img src={exampleImage} alt="iPhone13" />
         </div>
       </div>

@@ -8,4 +8,5 @@ function InformationBanner(props) {
     </div>
   );
 }
+
 export default InformationBanner;

@@ -1,6 +1,8 @@
 import { Route, Switch } from "react-router-dom";
 
 import MainNavigation from "./components/layout/MainNavigation";
+import NotFound from "./components/layout/NotFound";
+
 import HomePage from "./pages/HomePage";
 import StorePage from "./pages/StorePage";
 import MacPage from "./pages/MacPage";
@@ -18,9 +20,6 @@ function App() {
       <MainNavigation />
       <div className="mt-11">
         <Switch>
-          <Route path="/" exact>
-            <HomePage />
-          </Route>
           <Route path="/shop">
             <StorePage />
           </Route>
@@ -54,6 +53,10 @@ function App() {
           <Route path="/cart">
             <MacPage />
           </Route>
+          <Route path="/" exact>
+            <HomePage />
+          </Route>
+          <Route component={NotFound} />
         </Switch>
       </div>
     </body>

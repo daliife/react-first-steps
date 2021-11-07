@@ -1,12 +1,14 @@
-import InformationBanner from "../components/layout/InformationBanner";
-import HomeCard from "../components/layout/HomeCard";
+import InformationBanner from "../components/Home/InformationBanner";
+import HomeCard from "../components/Home/HomeCard";
 
 function HomePage() {
   return (
     <div className="">
       <InformationBanner></InformationBanner>
-      <HomeCard></HomeCard>
-      <HomeCard></HomeCard>
+      <div className="grid grid-cols-1 gap-0">
+        <HomeCard></HomeCard>
+        <HomeCard></HomeCard>
+      </div>
       <div className="my-4 grid grid-cols-1 md:grid-cols-2 gap-4">
         <HomeCard></HomeCard>
         <HomeCard></HomeCard>
