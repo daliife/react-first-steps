@@ -2,7 +2,7 @@ import cardImage from "../../resources/images/card-image.jpg";
 
 function CardComponent(props){
     return (
-        <li key={props.title} className="bg-white border-1 rounded-2xl p-8 shadow-xl max-w-lg transition duration-300 ease-in-out transform hover:scale-105">
+        <li className="bg-white border-1 rounded-2xl p-8 shadow-xl max-w-lg transition duration-300 ease-in-out transform hover:scale-105">
             <a target="_blank" rel="noreferrer" href={props.linkUrl}>
                 <p className="text-gray-500 text-xs uppercase font-medium">
                     {props.model}

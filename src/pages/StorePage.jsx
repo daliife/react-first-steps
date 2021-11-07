@@ -59,14 +59,14 @@ function StorePage(props) {
       linkUrl: "https://apple.com",
     },
     {
-      title: "Supercharged for pros.",
+      title: "Supercharged for pros. 2",
       price: "From $1999 or $166.58/mo. for 12 mo.",
       model: "macbook pro 14-inch and 16-inch",
       imageUrl: "http://place-puppy.com/160x90",
       linkUrl: "https://apple.com",
     },
     {
-      title: "Supercharged for pros.",
+      title: "Supercharged for pros. 3",
       price: "From $1999 or $166.58/mo. for 12 mo.",
       model: "macbook pro 14-inch and 16-inch",
       imageUrl: "http://place-puppy.com/160x90",
@@ -77,6 +77,7 @@ function StorePage(props) {
   return (
     <div className="pt-1 bg-gray-100">
       <section className="max-w-5xl mx-auto">
+        
         {/* PRODUCTS YOU LOVE SECTION */}
         <h1 className="text-5xl font-semibold text-gray-400 my-16 max-w-3xl">
           <span className="text-black">Store.</span> The best way to buy the
@@ -84,8 +85,8 @@ function StorePage(props) {
         </h1>
         <div className="caroussel mt-8 mx-6">
           <ul className="flex flex-grow justify-between gap-12">
-            {carrouselExampleData.map((item) => (
-              <GalleryComponent {...item} />
+            {carrouselExampleData.map((carrouselItem, index) => (
+              <GalleryComponent key={carrouselItem.title + index} {...carrouselItem} />
             ))}
           </ul>
         </div>
@@ -99,23 +100,23 @@ function StorePage(props) {
         </div>
         <div className="mt-8 pb-10">
           <ul className="flex gap-6">
-            {cardsExampleData.map((item) => (
-              <CardComponent {...item} />
+            {cardsExampleData.map((card, index) => (
+              <CardComponent key={card.title + index} {...card} />
             ))}
           </ul>
         </div>
 
         {/* CARDS SECTION 2 */}
         <div className="card-gallery">
-          <h1 className="text-3xl font-medium text-gray-400 mt-8 max-w-3xl">
+          <h1 className="text-3xl font-medium text-gra  y-400 mt-8 max-w-3xl">
             <span className="text-black">The latest.</span> Take a look at
             what’s new, right now.
           </h1>
         </div>
         <div className="mt-8 pb-10">
           <ul className="flex gap-6">
-            {cardsExampleData.map((item) => (
-              <CardComponent {...item} />
+            {cardsExampleData.map((card, index) => (
+              <CardComponent key={card.title + (index*10)} {...card} />
             ))}
           </ul>
         </div>

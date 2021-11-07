@@ -1,4 +1,5 @@
 import { IoMdConstruct } from "react-icons/io";
+
 function InConstruction() {
   return (
     <div className="bg-gray-200 w-screen h-screen flex items-center justify-center">
@@ -6,10 +7,11 @@ function InConstruction() {
         <IoMdConstruct size="3rem" />
         <div className="content-wrapper">
           <h1 className="text-xl font-bold">Work in progress</h1>
-          <p className="text-sm">Sorry for the inconvinience.</p>
+          <p className="text-sm">Sorry for the inconvenience.</p>
         </div>
       </div>
     </div>
   );
 }
+
 export default InConstruction;

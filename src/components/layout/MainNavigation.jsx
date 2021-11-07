@@ -55,7 +55,7 @@ function MainNavigation(props) {
 
         {/* Links */}
         {dummyLinks.map((link) => (
-          <li className="hidden items-center md:flex">
+          <li key={link.text} className="hidden items-center md:flex">
             <Link className="opacity-80 transf hover:opacity-100" to={link.url} key={link.text}>
               {link.text}
             </Link>

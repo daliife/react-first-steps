@@ -1,6 +1,6 @@
 function GalleryComponent(props){
     return (
-        <li key={props.title} className="caroussel-element transform transition duration-200 ease-in-out hover:scale-105">
+        <li className="caroussel-element transform transition duration-200 ease-in-out hover:scale-105">
             <a href={props.title} className="hover:underline">
                 <img
                     className="max-h-20"
