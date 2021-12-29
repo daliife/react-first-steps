@@ -1,7 +1,7 @@
 import GalleryComponent from '../components/store/GalleryComponent';
 import CardComponent from '../components/store/CardComponent';
 
-function StorePage(props) {
+function StorePage() {
   const carrouselExampleData = [
     {
       title: 'Mac',

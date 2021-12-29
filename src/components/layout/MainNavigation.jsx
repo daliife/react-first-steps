@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { BsApple, BsSearch, BsBag } from 'react-icons/bs';
 
-function MainNavigation(props) {
+function MainNavigation() {
   const dummyLinks = [
     {
       text: 'Shop',

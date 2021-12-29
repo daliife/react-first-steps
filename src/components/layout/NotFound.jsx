@@ -1,4 +1,4 @@
-function NotFound(props) {
+function NotFound() {
   return (
     <div className="max-w-xl mx-auto h-screen flex flex-col items-center justify-center text-center">
       <h2 className="font-sans font-semibold text-5xl max-w-lg mx-auto">The page you're looking for can't be found</h2>
