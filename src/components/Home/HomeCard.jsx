@@ -1,4 +1,4 @@
-import exampleImage from "../../resources/images/iphone-image.png";
+import exampleImage from '../../resources/images/iphone-image.png';
 
 function Homecard(props) {
   return (
@@ -6,10 +6,7 @@ function Homecard(props) {
       <div className="pt-9">
         <h2 className="text-5xl font-semibold">iPhone 13 Pro</h2>
         <h3 className="text-2xl font-normal mt-1">Prodigioso Pro</h3>
-        <p
-          className="mt-2 text-gray-400 font-normal text-lg"
-          aria-label="Disponible el veintiséis de octubre"
-        >
+        <p className="mt-2 text-gray-400 font-normal text-lg" aria-label="Disponible el veintiséis de octubre">
           Disponible el 26/10
         </p>
         <div className="no-underline text-blue-500 mt-3">

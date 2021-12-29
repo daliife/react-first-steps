@@ -1,4 +1,4 @@
-import { IoMdConstruct } from "react-icons/io";
+import { IoMdConstruct } from 'react-icons/io';
 
 function InConstruction() {
   return (

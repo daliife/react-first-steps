@@ -1,7 +1,8 @@
-# React first steps 
+# React first steps
 
 - First introduction to React basics
 - Trying the awesome Tailwindcss, a utility-first CSS framework.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

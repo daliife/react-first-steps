@@ -1,18 +1,18 @@
-import { Route, Switch } from "react-router-dom";
+import { Route, Switch } from 'react-router-dom';
 
-import MainNavigation from "./components/layout/MainNavigation";
-import NotFound from "./components/layout/NotFound";
+import MainNavigation from './components/layout/MainNavigation';
+import NotFound from './components/layout/NotFound';
 
-import HomePage from "./pages/HomePage";
-import StorePage from "./pages/StorePage";
-import MacPage from "./pages/MacPage";
-import IpadPage from "./pages/IpadPage";
-import IphonePage from "./pages/IphonePage";
-import WatchPage from "./pages/WatchPage";
-import AirpodsPage from "./pages/AirpodsPage";
-import HomeTvPage from "./pages/HomeTvPage";
-import OnlyApple from "./pages/OnlyApple";
-import SupportPage from "./pages/SupportPage";
+import HomePage from './pages/HomePage';
+import StorePage from './pages/StorePage';
+import MacPage from './pages/MacPage';
+import IpadPage from './pages/IpadPage';
+import IphonePage from './pages/IphonePage';
+import WatchPage from './pages/WatchPage';
+import AirpodsPage from './pages/AirpodsPage';
+import HomeTvPage from './pages/HomeTvPage';
+import OnlyApple from './pages/OnlyApple';
+import SupportPage from './pages/SupportPage';
 
 function App() {
   return (
