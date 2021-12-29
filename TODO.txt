@@ -1,0 +1,6 @@
+TODO LIST:
+- Fix github pages routing when deploying
+- Add husky to control linting + prettier
+- Add more visual components to the web
+- Unit tests (jest?)
+- Logic example + API REST?
