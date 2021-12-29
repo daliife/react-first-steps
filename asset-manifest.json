@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/react-first-steps/static/css/main.65df361e.chunk.css",
-    "main.js": "/react-first-steps/static/js/main.3bf83edb.chunk.js",
-    "main.js.map": "/react-first-steps/static/js/main.3bf83edb.chunk.js.map",
-    "runtime-main.js": "/react-first-steps/static/js/runtime-main.b2f255fe.js",
-    "runtime-main.js.map": "/react-first-steps/static/js/runtime-main.b2f255fe.js.map",
-    "static/js/2.c9552082.chunk.js": "/react-first-steps/static/js/2.c9552082.chunk.js",
-    "static/js/2.c9552082.chunk.js.map": "/react-first-steps/static/js/2.c9552082.chunk.js.map",
-    "index.html": "/react-first-steps/index.html",
-    "static/css/main.65df361e.chunk.css.map": "/react-first-steps/static/css/main.65df361e.chunk.css.map",
-    "static/js/2.c9552082.chunk.js.LICENSE.txt": "/react-first-steps/static/js/2.c9552082.chunk.js.LICENSE.txt",
-    "static/media/card-image.5ef27e8e.jpg": "/react-first-steps/static/media/card-image.5ef27e8e.jpg",
-    "static/media/iphone-image.93578060.png": "/react-first-steps/static/media/iphone-image.93578060.png"
+    "main.css": "/daliife/react-first-steps/static/css/main.de4f9bf1.chunk.css",
+    "main.js": "/daliife/react-first-steps/static/js/main.529f160d.chunk.js",
+    "main.js.map": "/daliife/react-first-steps/static/js/main.529f160d.chunk.js.map",
+    "runtime-main.js": "/daliife/react-first-steps/static/js/runtime-main.31264e91.js",
+    "runtime-main.js.map": "/daliife/react-first-steps/static/js/runtime-main.31264e91.js.map",
+    "static/js/2.ae420379.chunk.js": "/daliife/react-first-steps/static/js/2.ae420379.chunk.js",
+    "static/js/2.ae420379.chunk.js.map": "/daliife/react-first-steps/static/js/2.ae420379.chunk.js.map",
+    "index.html": "/daliife/react-first-steps/index.html",
+    "static/css/main.de4f9bf1.chunk.css.map": "/daliife/react-first-steps/static/css/main.de4f9bf1.chunk.css.map",
+    "static/js/2.ae420379.chunk.js.LICENSE.txt": "/daliife/react-first-steps/static/js/2.ae420379.chunk.js.LICENSE.txt",
+    "static/media/card-image.5ef27e8e.jpg": "/daliife/react-first-steps/static/media/card-image.5ef27e8e.jpg",
+    "static/media/iphone-image.93578060.png": "/daliife/react-first-steps/static/media/iphone-image.93578060.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.b2f255fe.js",
-    "static/js/2.c9552082.chunk.js",
-    "static/css/main.65df361e.chunk.css",
-    "static/js/main.3bf83edb.chunk.js"
+    "static/js/runtime-main.31264e91.js",
+    "static/js/2.ae420379.chunk.js",
+    "static/css/main.de4f9bf1.chunk.css",
+    "static/js/main.529f160d.chunk.js"
   ]
 }
