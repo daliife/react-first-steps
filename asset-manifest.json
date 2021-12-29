@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "//github.com/daliife/react-first-steps/static/css/main.de4f9bf1.chunk.css",
-    "main.js": "//github.com/daliife/react-first-steps/static/js/main.269bcc55.chunk.js",
-    "main.js.map": "//github.com/daliife/react-first-steps/static/js/main.269bcc55.chunk.js.map",
-    "runtime-main.js": "//github.com/daliife/react-first-steps/static/js/runtime-main.4cc16c7c.js",
-    "runtime-main.js.map": "//github.com/daliife/react-first-steps/static/js/runtime-main.4cc16c7c.js.map",
-    "static/js/2.ae420379.chunk.js": "//github.com/daliife/react-first-steps/static/js/2.ae420379.chunk.js",
-    "static/js/2.ae420379.chunk.js.map": "//github.com/daliife/react-first-steps/static/js/2.ae420379.chunk.js.map",
-    "index.html": "//github.com/daliife/react-first-steps/index.html",
-    "static/css/main.de4f9bf1.chunk.css.map": "//github.com/daliife/react-first-steps/static/css/main.de4f9bf1.chunk.css.map",
-    "static/js/2.ae420379.chunk.js.LICENSE.txt": "//github.com/daliife/react-first-steps/static/js/2.ae420379.chunk.js.LICENSE.txt",
-    "static/media/card-image.5ef27e8e.jpg": "//github.com/daliife/react-first-steps/static/media/card-image.5ef27e8e.jpg",
-    "static/media/iphone-image.93578060.png": "//github.com/daliife/react-first-steps/static/media/iphone-image.93578060.png"
+    "main.css": "/daliife/react-first-steps/static/css/main.9994c57c.chunk.css",
+    "main.js": "/daliife/react-first-steps/static/js/main.0d30b413.chunk.js",
+    "main.js.map": "/daliife/react-first-steps/static/js/main.0d30b413.chunk.js.map",
+    "runtime-main.js": "/daliife/react-first-steps/static/js/runtime-main.31264e91.js",
+    "runtime-main.js.map": "/daliife/react-first-steps/static/js/runtime-main.31264e91.js.map",
+    "static/js/2.5f0918be.chunk.js": "/daliife/react-first-steps/static/js/2.5f0918be.chunk.js",
+    "static/js/2.5f0918be.chunk.js.map": "/daliife/react-first-steps/static/js/2.5f0918be.chunk.js.map",
+    "index.html": "/daliife/react-first-steps/index.html",
+    "static/css/main.9994c57c.chunk.css.map": "/daliife/react-first-steps/static/css/main.9994c57c.chunk.css.map",
+    "static/js/2.5f0918be.chunk.js.LICENSE.txt": "/daliife/react-first-steps/static/js/2.5f0918be.chunk.js.LICENSE.txt",
+    "static/media/card-image.5ef27e8e.jpg": "/daliife/react-first-steps/static/media/card-image.5ef27e8e.jpg",
+    "static/media/iphone-image.93578060.png": "/daliife/react-first-steps/static/media/iphone-image.93578060.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.4cc16c7c.js",
-    "static/js/2.ae420379.chunk.js",
-    "static/css/main.de4f9bf1.chunk.css",
-    "static/js/main.269bcc55.chunk.js"
+    "static/js/runtime-main.31264e91.js",
+    "static/js/2.5f0918be.chunk.js",
+    "static/css/main.9994c57c.chunk.css",
+    "static/js/main.0d30b413.chunk.js"
   ]
 }
