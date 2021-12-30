@@ -1,5 +1,5 @@
-import InformationBanner from '../components/home/InformationBanner';
-import HomeCard from '../components/home/HomeCard';
+import InformationBanner from './../components/home/InformationBanner';
+import HomeCard from './../components/home/HomeCard';
 
 function HomePage() {
   return (
