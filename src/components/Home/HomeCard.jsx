@@ -1,6 +1,6 @@
 import exampleImage from '../../resources/images/iphone-image.png';
 
-function Homecard() {
+function HomeCard() {
   return (
     <div className="w-100 bg-gray-50 text-gray-900 text-sm font-normal text-center min-h-96 relative">
       <div className="pt-9">
@@ -22,4 +22,4 @@ function Homecard() {
     </div>
   );
 }
-export default Homecard;
+export default HomeCard;
