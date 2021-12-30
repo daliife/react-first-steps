@@ -1,9 +1,9 @@
-import InformationBanner from '../components/home/InformationBanner';
 import HomeCard from '../components/home/HomeCard';
+import InformationBanner from '../components/home/InformationBanner';
 
 function HomePage() {
   return (
-    <div className="">
+    <div>
       <InformationBanner></InformationBanner>
       <div className="grid grid-cols-1 gap-0">
         <HomeCard></HomeCard>
