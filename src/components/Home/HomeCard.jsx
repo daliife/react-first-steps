@@ -1,4 +1,4 @@
-import exampleImage from './../../resources/images/iphone-image.png';
+import exampleImage from '../../resources/images/iphone-image.png';
 
 function HomeCard() {
   return (

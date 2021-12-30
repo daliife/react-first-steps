@@ -1,4 +1,4 @@
-import cardImage from './../../resources/images/card-image.jpg';
+import cardImage from '../../resources/images/card-image.jpg';
 
 function CardComponent(props) {
   return (
